@@ -32,7 +32,8 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 |Computer and sound|Teensy 4.1 ($27) + Audio Adapter ($16) = ~43|
 | |Raspi ($10-45) + Audio Bonnet ($10) = ~$45|
 | |Raspi ($10-45) + Pirate Audio Audio/Screen ($25) = ~$60|
-|Display|[LED Matrix](https://www.adafruit.com/product/420) = ~$25|
+|Display|[Waveshare 1.5" colored OLED](https://www.amazon.com/1-5inch-RGB-OLED-Module-Communicating/dp/B07DB5YFGW) - $19|
+| |[LED Matrix](https://www.adafruit.com/product/420) = ~$25|
 | |[Colored OLED 1.3"](https://www.adafruit.com/product/1673) = ~$30-40|
 | |[Monochrome OLED 1.3"](https://www.adafruit.com/product/938) = ~$20|
 | |Maybe just a way to do HDMI out?|
