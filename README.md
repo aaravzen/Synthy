@@ -6,6 +6,7 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 - [Prajwal Mahesh](https://youtu.be/yj9AeDa9qw8) - Teensy OP-1 [code here](https://github.com/prajwal1121/Portable-Synth)
 - [Teenage Engineering](https://teenage.engineering/) - Pocket Operators, OP-1/OP-Z
 - [Synthstrom Deluge](https://synthstrom.com/product/deluge/)
+- [Zack Freedman](https://www.youtube.com/channel/UCUW49KGPezggFi0PGyDvcvg) - [How to Finish Your Weekend Projects in One Weekend Macro Pad](https://www.youtube.com/watch?v=72a85tWOJVY&ab_channel=ZackFreedman)
 
 # Considerations
 |Goals |Requirements |
