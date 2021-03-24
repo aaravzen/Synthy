@@ -1,6 +1,12 @@
 # Synthy
 Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 
+# Inspiration
+[Otem Rellik](http://www.otemrellik.com/) - [Raspi Looper/Groovebox](https://youtu.be/_nBK8sAl9nw) and [Teensy Polyphonic Synth](https://youtu.be/KbcNqarBTsI)
+[Prajwal Mahesh](https://youtu.be/yj9AeDa9qw8) - Teensy OP-1 [code here](https://github.com/prajwal1121/Portable-Synth)
+[Teenage Engineering](https://teenage.engineering/) - Pocket Operators, OP-1/OP-Z
+[Synthstrom Deluge](https://synthstrom.com/product/deluge/)
+
 # Considerations
 |Goals |Requirements |
 --- | ---
@@ -21,7 +27,7 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 --- | ---
 |Buttons|[neotrellis pcb+buttons](https://www.adafruit.com/product/3954) are $17.50 for 4x4. I'm thinking $35 per box for those.|
 | | May also want something like [this](https://www.adafruit.com/product/4184)|
-|Pots/Sliders| ??? we need some, idk which yet |
+|Pots/Sliders| ??? we need some, idk which yet. maybe [these](https://www.adafruit.com/product/2058) |
 |LEDs| need these too |
 |Computer and sound|Teensy 4.1 ($27) + Audio Adapter ($16) = ~43|
 | |Raspi ($10-45) + Audio Bonnet ($10) = ~$45|
@@ -30,3 +36,4 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 | |[Monochrome OLED 1.3"](https://www.adafruit.com/product/938) = ~$20|
 | |Maybe just a way to do HDMI out?|
 | |Or potentially all communication can be done via LEDs. Very retro and some cost savings|
+|SD Card|$8-30 depending on storage preferences. I'll probably go on the higher end here for additional music/sample storage|
