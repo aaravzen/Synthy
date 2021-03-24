@@ -2,10 +2,10 @@
 Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 
 # Inspiration
-[Otem Rellik](http://www.otemrellik.com/) - [Raspi Looper/Groovebox](https://youtu.be/_nBK8sAl9nw) and [Teensy Polyphonic Synth](https://youtu.be/KbcNqarBTsI)
-[Prajwal Mahesh](https://youtu.be/yj9AeDa9qw8) - Teensy OP-1 [code here](https://github.com/prajwal1121/Portable-Synth)
-[Teenage Engineering](https://teenage.engineering/) - Pocket Operators, OP-1/OP-Z
-[Synthstrom Deluge](https://synthstrom.com/product/deluge/)
+- [Otem Rellik](http://www.otemrellik.com/) - [Raspi Looper/Groovebox](https://youtu.be/_nBK8sAl9nw) and [Teensy Polyphonic Synth](https://youtu.be/KbcNqarBTsI)
+- [Prajwal Mahesh](https://youtu.be/yj9AeDa9qw8) - Teensy OP-1 [code here](https://github.com/prajwal1121/Portable-Synth)
+- [Teenage Engineering](https://teenage.engineering/) - Pocket Operators, OP-1/OP-Z
+- [Synthstrom Deluge](https://synthstrom.com/product/deluge/)
 
 # Considerations
 |Goals |Requirements |
