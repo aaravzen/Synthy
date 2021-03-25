@@ -33,6 +33,7 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 | | May also want something like [this](https://www.adafruit.com/product/4184)|
 |Pots/Sliders| ??? we probably want some, idk which yet. maybe [these](https://www.adafruit.com/product/2058) |
 | |These sorta [encoders](https://www.digikey.com/en/products/detail/bourns-inc/PEC11R-4115K-S0018/4699207) with switches are what Prajwal used - $2 per, ~4 per board would be $8|
+| |Sliders like [this](https://www.digikey.com/en/products/detail/bourns-inc/PTA4543-2010CIB103/3781197) would run us ~$1.5 per as well. I'd like to add at least a couple analog inputs, which these would work for.|
 | |Potentially a small joystick like the [PSP ones](https://www.adafruit.com/?q=PSP+joystick&sort=BestMatch) would be good with something like [this](https://www.adafruit.com/product/3246)|
 |LEDs| need these too |
 |Computer and sound|Teensy 4.1 ($27) + Audio Adapter ($16) = ~43|
