@@ -53,4 +53,4 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 | |[Or this I2S one](https://www.adafruit.com/product/3421) = ~$7|
 | |We may be able to leverage the line in off the [teensy audio shield](https://www.pjrc.com/store/teensy3_audio.html) for use with an external mic|
 | |Prajwal used one of [these](https://www.sparkfun.com/products/11083) FM radio tuners to sample from the radio like the OP-1. pretty neat, ~$11|
-| |May need something like [these](https://www.adafruit.com/product/1699)|
+| |May need something like [these](https://www.adafruit.com/product/1699) 3.5mm jacks|
