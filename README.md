@@ -17,7 +17,7 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 | |buttons, potentiometers, and sliders for controls.|
 |Synthesis|Instead of sequencing, could use the buttons as a keyboard and synthesize sounds using eg. Pure Data|
 | |I'm not certain, but I don't think this would add hardware constraints. What we can do will be limited by compute, etc, but I don't think I have any special considerations|
-|Sampling|One consideration for sampling is sound inputs, it would be nice to be able to record new sounds somehow. But the bare minimum for sampling would be |
+|Sampling|One consideration for sampling is sound inputs, it would be nice to be able to record new sounds somehow. But the bare minimum for sampling would be viable with preloaded sound files off an SD|
 |MP3 Playing|If we can get audio out and we have SD storage, we should be able to play mp3 files through an audio jack as well. should be an easy stretch goal plus I can actually use one since my phone doesn't have an aux out anymore|
 | |We could add playback effects or something fun? Make a spinning potentiometer record scratch or something|
 |MIDI controls|Use the same buttons as a MIDI controller|
