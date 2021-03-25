@@ -24,6 +24,7 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 | |Needs USB out or similar to connect to computer|
 |Mode switcher|Way to change between sequencer/synthesizer, mp3 player, midi controller. Maybe something like [this](https://www.adafruit.com/product/2925)|
 |Screen?|Would be cool to have some amount of display, especially if we want an actually usable MP3 player and a groovebox that's easy to understand|
+|Stereo In/Out|To play from an amp or in line with other 1/4" stuff. Not sure how difficult it would be to add two of [these](https://www.adafruit.com/product/1804)|
 
 # Parts
 |Purpose|Options|
