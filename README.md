@@ -32,6 +32,8 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 |Buttons|[neotrellis pcb+buttons](https://www.adafruit.com/product/3954) are $17.50 for 4x4. I'm thinking $35 per box for those.|
 | | May also want something like [this](https://www.adafruit.com/product/4184)|
 |Pots/Sliders| ??? we probably want some, idk which yet. maybe [these](https://www.adafruit.com/product/2058) |
+| |These sorta [encoders](https://www.digikey.com/en/products/detail/bourns-inc/PEC11R-4115K-S0018/4699207) with switches are what Prajwal used - $2 per, ~4 per board would be $8|
+| |Potentially a small joystick like the [PSP ones](https://www.adafruit.com/?q=PSP+joystick&sort=BestMatch) would be good with something like [this](https://www.adafruit.com/product/3246)|
 |LEDs| need these too |
 |Computer and sound|Teensy 4.1 ($27) + Audio Adapter ($16) = ~43|
 | |[Teensy PSRM](https://www.pjrc.com/store/psram.html)|
@@ -50,3 +52,4 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 | |[Or this I2S one](https://www.adafruit.com/product/3421) = ~$7|
 | |We may be able to leverage the line in off the [teensy audio shield](https://www.pjrc.com/store/teensy3_audio.html) for use with an external mic|
 | |Prajwal used one of [these](https://www.sparkfun.com/products/11083) FM radio tuners to sample from the radio like the OP-1. pretty neat, ~$11|
+| |May need something like [these](https://www.adafruit.com/product/1699)|
