@@ -12,7 +12,7 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 |Goals |Requirements |
 --- | ---
 |Sequencing/beatmaking ability|SD Storage for samples|
-| |3.5mm audio jack|
+| |3.5mm audio jack (2x one in one out?)|
 | |buttons, potentiometers, and sliders for controls.|
 |Synthesis|Instead of sequencing, could use the buttons as a keyboard and synthesize sounds using eg. Pure Data|
 | |I'm not certain, but I don't think this would add hardware constraints. What we can do will be limited by compute, etc, but I don't think I have any special considerations|
