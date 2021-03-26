@@ -30,7 +30,8 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 |Purpose|Options|
 --- | ---
 |Buttons|[neotrellis pcb+buttons](https://www.adafruit.com/product/3954) are $17.50 for 4x4. I'm thinking $35 per box for those.|
-| | May also want something like [this](https://www.adafruit.com/product/4184)|
+| |With the neotrellis, we may need this type of [breakout board](https://www.adafruit.com/product/3657) = ~$5|
+| | May also want something like [this](https://www.adafruit.com/product/4184) set of a lot of buttons|
 |Pots/Sliders| ??? we probably want some, idk which yet. maybe [these](https://www.adafruit.com/product/2058) |
 | |These sorta [encoders](https://www.digikey.com/en/products/detail/bourns-inc/PEC11R-4115K-S0018/4699207) with switches are what Prajwal used - $2 per, ~4 per board would be $8|
 | |Sliders like [this](https://www.digikey.com/en/products/detail/bourns-inc/PTA4543-2010CIB103/3781197) would run us ~$1.5 per as well. I'd like to add at least a couple analog inputs, which these would work for.|
