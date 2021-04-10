@@ -22,6 +22,7 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 - [Gamma (C++)](https://w2.mat.ucsb.edu/gamma/)
 - [Good resource - musicdsp.org](https://www.musicdsp.org/en/latest/)
 - [Musical Programming Langs](https://en.wikipedia.org/wiki/List_of_audio_programming_languages)
+- [Sonic Pi](https://sonic-pi.net/)
 - [tips for low-latency audio on raspi](https://wiki.linuxaudio.org/wiki/raspberrypi)
 - [LMMS](https://lmms.io/) or another linux-compatible DAW
 
