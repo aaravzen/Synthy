@@ -6,6 +6,7 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 - [Prajwal Mahesh](https://youtu.be/yj9AeDa9qw8) - Teensy OP-1 [code here](https://github.com/prajwal1121/Portable-Synth)
 - [Teenage Engineering](https://teenage.engineering/) - Pocket Operators, OP-1/OP-Z
 - [Synthstrom Deluge](https://synthstrom.com/product/deluge/)
+- [Critter and Guitari Organelle](https://www.critterandguitari.com/organelle) and their [github](https://github.com/critterandguitari) - this is very likely the closest to what we're building, and I think the current iteration is literally running PD off a raspi. We likely want something less customizable at the benefit of making something that's versatile yet unintimidating.
 - [Zack Freedman](https://www.youtube.com/channel/UCUW49KGPezggFi0PGyDvcvg) - [How to Finish Your Weekend Projects in One Weekend Macro Pad](https://www.youtube.com/watch?v=72a85tWOJVY)
 - [OTTO](https://github.com/bitfieldaudio/OTTO)
 - [mta.me](http://mta.me/)
