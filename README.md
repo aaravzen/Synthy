@@ -26,6 +26,7 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 # Software Ideation
 - If we can write a wrapper that surrounds some of the above software options/inspiration that provides the capability to sample and sequence/loop (basically a hardware format of [this](https://youtu.be/kxV60u_OAuI) functionality) that would be ideal.
 - We probably need a way to do the following things:
+
 |Goals|Considerations|
 --- | ---
 |Sampling|Be able to record up to 16 sounds on a sample pad|
