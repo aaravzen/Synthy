@@ -11,7 +11,7 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 - [mta.me](http://mta.me/)
 - [song makers](https://musiclab.chromeexperiments.com/Song-Maker/)
 - [Flip Sampler](https://www.flipsampler.com/)
-- [Count to 5 Effects Pedal](https://mtlasm.blogspot.com/p/count-to.html) - pitch/speed/direction effects
+- [Count to 5 Effects Pedal](https://mtlasm.blogspot.com/p/count-to.html) - pitch/speed/direction effects - as an example of how a relatively simple concept can be used to create cool sounds if implemented in a usable fashion.
 
 # Software Options
 - [Patchbox OS (raspi distro for audio projects)](https://blokas.io/patchbox-os/)
