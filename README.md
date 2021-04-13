@@ -26,6 +26,7 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 - [Sonic Pi](https://sonic-pi.net/)
 - [tips for low-latency audio on raspi](https://wiki.linuxaudio.org/wiki/raspberrypi)
 - [LMMS](https://lmms.io/) or another linux-compatible DAW
+- [Open-source sample box written for raspi](https://github.com/josephernest/SamplerBox) possibly worth submoduling or partially copying.
 
 # Software Ideation
 - If we can write a wrapper that surrounds some of the above software options/inspiration that provides the capability to sample and sequence/loop (basically a hardware format of [this](https://youtu.be/kxV60u_OAuI) functionality) that would be ideal.
