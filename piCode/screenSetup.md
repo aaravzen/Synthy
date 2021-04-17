@@ -4,6 +4,7 @@ sudo apt-get install python3-pil
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
 
+pip3 install adafruit-circuitpython-lis3dh
 
 ```
 import adafruit_ssd1306
