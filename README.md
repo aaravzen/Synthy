@@ -26,6 +26,9 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 - [Sonic Pi](https://sonic-pi.net/)
 - [tips for low-latency audio on raspi](https://wiki.linuxaudio.org/wiki/raspberrypi)
 - [LMMS](https://lmms.io/) or another linux-compatible DAW
+- [Open-source sample box written for raspi](https://github.com/josephernest/SamplerBox) possibly worth submoduling or partially copying.
+- May want to pull some sequencing from classic track midi data from somewhere like [here](http://www.kunstderfuge.com/)
+- [ORAC](https://github.com/TheTechnobear/Orac) is a virtual modular synth running on PD. I think we'll probably end up building on top of this, although I don't know if we'll give users full modular capability out of the box. Would have to find a clean implementation, for which I have to understand ORAC better. Clarification: I think ORAC will allow us to organize our sound path, at least for a part of it. I don't think we want end users of Synthy to change the sound path, since that would be too confusing.
 
 # Software Ideation
 - If we can write a wrapper that surrounds some of the above software options/inspiration that provides the capability to sample and sequence/loop (basically a hardware format of [this](https://youtu.be/kxV60u_OAuI) functionality) that would be ideal.
