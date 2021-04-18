@@ -22,9 +22,9 @@ import adafruit_rgb_display.ssd1351 as ssd1351  # pylint: disable=unused-import
 import adafruit_rgb_display.ssd1331 as ssd1331  # pylint: disable=unused-import
 
 # Configuration for CS and DC pins (these are PiTFT defaults):
-cs_pin = digitalio.DigitalInOut(board.CE0)
-dc_pin = digitalio.DigitalInOut(board.D25)
-reset_pin = digitalio.DigitalInOut(board.D24)
+cs_pin = digitalio.DigitalInOut(board.D5)
+dc_pin = digitalio.DigitalInOut(board.D6)
+reset_pin = digitalio.DigitalInOut(board.D4)
 
 # Config for display baudrate (default max is 24mhz):
 BAUDRATE = 24000000
@@ -41,12 +41,12 @@ spi = board.SPI()
 # disp = st7735.ST7735R(spi, rotation=90,                           # 1.8" ST7735R
 # disp = st7735.ST7735R(spi, rotation=270, height=128, x_offset=2, y_offset=3,   # 1.44" ST7735R
 # disp = st7735.ST7735R(spi, rotation=90, bgr=True,                 # 0.96" MiniTFT ST7735R
-# disp = ssd1351.SSD1351(spi, rotation=180,                         # 1.5" SSD1351
+disp = ssd1351.SSD1351(spi, rotation=180,                         # 1.5" SSD1351
 # disp = ssd1351.SSD1351(spi, height=96, y_offset=32, rotation=180, # 1.27" SSD1351
 # disp = ssd1331.SSD1331(spi, rotation=180,                         # 0.96" SSD1331
-disp = ili9341.ILI9341(
-    spi,
-    rotation=90,  # 2.2", 2.4", 2.8", 3.2" ILI9341
+# disp = ili9341.ILI9341(
+#     spi,
+#     rotation=90,  # 2.2", 2.4", 2.8", 3.2" ILI9341
     cs=cs_pin,
     dc=dc_pin,
     rst=reset_pin,
