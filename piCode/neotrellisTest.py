@@ -22,6 +22,13 @@ CYAN = (0, 255, 255)
 BLUE = (0, 0, 255)
 PURPLE = (180, 0, 255)
 
+colors = [
+    ["#DD1139", "#DD125B", "#DC216E", "#E02177"], 
+    ["#DD1139", "#DE226F", "#DF2373", "#E02177"], 
+    ["#DD1259", "#DF2276", "#E5217F", "#D61680"], 
+    ["#E02275", "#D61680", "#B81B7E", "#BA1B7E"]
+]
+
 # this will be called when button events are received
 def blink(event):
     # turn the LED on when a rising edge is detected
@@ -41,7 +48,7 @@ for i in range(16):
     trellis.callbacks[i] = blink
 
     # cycle the LEDs on startup
-    trellis.pixels[i] = PURPLE
+    trellis.pixels[i] = colors[i//4][i%4]
     time.sleep(0.05)
 
 for i in range(16):
