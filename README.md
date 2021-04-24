@@ -97,3 +97,16 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 
 # Future Goals
 - Put it inside [this](https://preview.redd.it/2ar1ehv9xvg61.jpg?width=2075&format=pjpg&auto=webp&s=27cc71307f825115af33f410c18aa719e2d52dea) and it's the future of music. This is a bazillion dollar idea, easy.
+
+# Repro Steps
+
+- Set up Pi
+  - [Download patchbox image](https://blokas.io/patchbox-os/) 
+  - flash sd card (we used the software patchbox suggested)
+  - set up ssh on the Pi flowing advice from [here](https://stackabuse.com/executing-shell-commands-with-python/)
+
+- Testing hardware
+
+
+# Related Reading
+- https://learn.sparkfun.com/tutorials/midi-tutorial/all

@@ -10,6 +10,9 @@ pip3 install adafruit-circuitpython-lis3dh
 More resources I have looked at to get the screen to work:
 
 * https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+* Did not run the sys update step on this and seemed to work fine
+* https://learn.adafruit.com/1-8-tft-display/python-wiring-and-setup
+
 
 ```
 import adafruit_ssd1306
