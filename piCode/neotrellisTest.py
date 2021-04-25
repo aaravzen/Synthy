@@ -47,7 +47,7 @@ def blink(event):
     # turn the LED on when a rising edge is detected
     if event.edge == NeoTrellis.EDGE_RISING:
         i = event.number
-        color = ImageColor.getcolor(colors[2][i//4][i%4])
+        color = ImageColor.getcolor(colors[2][i//4][i%4], "RGB")
         trellis.pixels[event.number] = color
     # turn the LED off when a rising edge is detected
     elif event.edge == NeoTrellis.EDGE_FALLING:
