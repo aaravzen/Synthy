@@ -63,7 +63,7 @@ for i in range(16):
     trellis.callbacks[i] = blink
 
     # cycle the LEDs on startup
-    color = ImageColor.getcolor(colors[1][i//4][i%4])
+    color = ImageColor.getcolor(colors[1][i//4][i%4], "RGB")
     print(color)
     trellis.pixels[i] = color
     time.sleep(0.05)
