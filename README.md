@@ -6,8 +6,45 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 - [Prajwal Mahesh](https://youtu.be/yj9AeDa9qw8) - Teensy OP-1 [code here](https://github.com/prajwal1121/Portable-Synth)
 - [Teenage Engineering](https://teenage.engineering/) - Pocket Operators, OP-1/OP-Z
 - [Synthstrom Deluge](https://synthstrom.com/product/deluge/)
+- [Critter and Guitari Organelle](https://www.critterandguitari.com/organelle) and their [github](https://github.com/critterandguitari) - this is very likely the closest to what we're building, and I think the current iteration is literally running PD off a raspi. We likely want something less customizable at the benefit of making something that's versatile yet unintimidating.
 - [Zack Freedman](https://www.youtube.com/channel/UCUW49KGPezggFi0PGyDvcvg) - [How to Finish Your Weekend Projects in One Weekend Macro Pad](https://www.youtube.com/watch?v=72a85tWOJVY)
 - [OTTO](https://github.com/bitfieldaudio/OTTO)
+- [mta.me](http://mta.me/)
+- [song makers](https://musiclab.chromeexperiments.com/Song-Maker/)
+- [Flip Sampler](https://www.flipsampler.com/)
+- [Count to 5 Effects Pedal](https://mtlasm.blogspot.com/p/count-to.html) - pitch/speed/direction effects - as an example of how a relatively simple concept can be used to create cool sounds if implemented in a usable fashion.
+
+# Software Options
+- [Patchbox OS (raspi distro for audio projects)](https://blokas.io/patchbox-os/)
+- [Automatonism (Pure Data based modular synthesis)](https://www.automatonism.com/)
+- [jFugue (Java)](http://www.jfugue.org/)
+- [Synthesis ToolKit (C++)](https://ccrma.stanford.edu/software/stk/)
+- [Maximilian (C++ w/ js bindings)](https://github.com/micknoise/Maximilian)
+- [Gamma (C++)](https://w2.mat.ucsb.edu/gamma/)
+- [Good resource - musicdsp.org](https://www.musicdsp.org/en/latest/)
+- [Musical Programming Langs](https://en.wikipedia.org/wiki/List_of_audio_programming_languages)
+- [Sonic Pi](https://sonic-pi.net/)
+- [tips for low-latency audio on raspi](https://wiki.linuxaudio.org/wiki/raspberrypi)
+- [LMMS](https://lmms.io/) or another linux-compatible DAW
+- [Open-source sample box written for raspi](https://github.com/josephernest/SamplerBox) possibly worth submoduling or partially copying.
+- May want to pull some sequencing from classic track midi data from somewhere like [here](http://www.kunstderfuge.com/)
+- [ORAC](https://github.com/TheTechnobear/Orac) is a virtual modular synth running on PD. I think we'll probably end up building on top of this, although I don't know if we'll give users full modular capability out of the box. Would have to find a clean implementation, for which I have to understand ORAC better. Clarification: I think ORAC will allow us to organize our sound path, at least for a part of it. I don't think we want end users of Synthy to change the sound path, since that would be too confusing.
+- [FluidSynth](https://www.fluidsynth.org/) and [FluidPatcher](https://github.com/albedozero/fluidpatcher)
+
+# Software Ideation
+- If we can write a wrapper that surrounds some of the above software options/inspiration that provides the capability to sample and sequence/loop (basically a hardware format of [this](https://youtu.be/kxV60u_OAuI) functionality) that would be ideal.
+- We probably need a way to do the following things:
+
+|Goals|Considerations|
+--- | ---
+|Sampling|Be able to record up to 16 sounds on a sample pad|
+|Replaying|Be able to play the samples pitched to a keyboard|
+|Looping/Sequencing|Be able to record samples into loops - either by playing live or by placing notes down a la deluge|
+|Effects/Automation| Be able to add Reverb, Delay, Chorus, Butcrush, etc to the loops. I'm thinking about having the 4x8 bottom section being a place to set the general shape of an envelope/automation and then having one of the knobs be able to "soften" the shape into less immediate quantization jumps|
+|Sequence Ordering|Be able to arrange different sections of different instruments (samples) into a full song|
+|Mixing|This should just be a reskinned view of volume automation params that are already covered by effects/sequence ordering (?)|
+|Interplay|May eventually want to add [Ableton Link](https://ableton.github.io/link/)|
+
 
 # Considerations
 |Goals |Requirements |
@@ -57,3 +94,19 @@ Hardware Audio Synthesizer, Groovebox, and Media Player (maybe lol)
 | |We may be able to leverage the line in off the [teensy audio shield](https://www.pjrc.com/store/teensy3_audio.html) for use with an external mic|
 | |Prajwal used one of [these](https://www.sparkfun.com/products/11083) FM radio tuners to sample from the radio like the OP-1. pretty neat, ~$11|
 | |May need something like [these](https://www.adafruit.com/product/1699) 3.5mm jacks|
+
+# Future Goals
+- Put it inside [this](https://preview.redd.it/2ar1ehv9xvg61.jpg?width=2075&format=pjpg&auto=webp&s=27cc71307f825115af33f410c18aa719e2d52dea) and it's the future of music. This is a bazillion dollar idea, easy.
+- Video walking through [pcb design and ordering](https://www.youtube.com/watch?v=35YuILUlfGs&ab_channel=GreatScott%21)
+# Repro Steps
+
+- Set up Pi
+  - [Download patchbox image](https://blokas.io/patchbox-os/) 
+  - flash sd card (we used the software patchbox suggested)
+  - set up ssh on the Pi flowing advice from [here](https://stackabuse.com/executing-shell-commands-with-python/)
+
+- Testing hardware
+
+
+# Related Reading
+- https://learn.sparkfun.com/tutorials/midi-tutorial/all
