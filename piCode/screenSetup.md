@@ -14,6 +14,10 @@ More resources I have looked at to get the screen to work:
 * https://learn.adafruit.com/1-8-tft-display/python-wiring-and-setup
 
 
+# Images of Screen Set Up
+![Screen Wiring the first time we got it to work](../img/ScreenWiringWorking1.jpg)
+![Close up on pie of screen wiring first time we got it to work](../img/ScreenWiringWorking1PieCloseUp.jpg)
+
 ```
 import adafruit_ssd1306
 import board
