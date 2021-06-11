@@ -1,10 +1,9 @@
-import rotaryio
-import board
+import Encoder
 
-encoder = rotaryio.IncrementalEncoder(board.GP17, board.GP18)
-last_position = None
-while True:
-    position = encoder.position
-    if last_position is None or position != last_position:
-        print(position)
-    last_position = position
+enc = Encoder.Encoder(17,18)
+val = enc.read()
+while(True):
+    temp = enc.read()
+    if(val != temp):
+        val = temp
+        print(val)
