@@ -28,6 +28,10 @@ R2_BUTTON = 26
 R3_PIN_A = 0 
 R3_PIN_B = 5
 R3_BUTTON = 6
+R4_PIN_A = 17 
+R4_PIN_B = 27
+R4_BUTTON = 22
+
 
 # some color definitions
 OFF = (0, 0, 0)
@@ -106,6 +110,8 @@ def switch_event(event, data):
         trellis.color(x,y,BLUE)
     if data == "r3":
         trellis.color(x,y,WHITE)
+    if data == "r4":
+        trellis.color(x,y,YELLOW)
 
     if event == RotaryEncoder.CLOCKWISE:
         print("%s Clockwise" % data)
@@ -121,10 +127,12 @@ def switch_event(event, data):
 r1 = RotaryEncoder(R1_PIN_A,R1_PIN_B,R1_BUTTON,switch_event,"r1")
 r2 = RotaryEncoder(R2_PIN_A,R2_PIN_B,R2_BUTTON,switch_event,"r2")
 r3 = RotaryEncoder(R3_PIN_A,R3_PIN_B,R3_BUTTON,switch_event,"r3")
+r4 = RotaryEncoder(R4_PIN_A,R4_PIN_B,R4_BUTTON,switch_event,"r4")
 
 print("r1_pin_a=[%d], r1_pin_b=[%d], r1_button=[%d]," % (R1_PIN_A, R1_PIN_B, R1_BUTTON))
 print("r2_pin_a=[%d], r2_pin_b=[%d], r2_button=[%d]," % (R2_PIN_A, R2_PIN_B, R2_BUTTON))
 print("r3_pin_a=[%d], r3_pin_b=[%d], r3_button=[%d]," % (R3_PIN_A, R3_PIN_B, R3_BUTTON))
+print("r4_pin_a=[%d], r4_pin_b=[%d], r4_button=[%d]," % (R4_PIN_A, R4_PIN_B, R4_BUTTON))
 
 while True:
     # the trellis can only be read every 17 millisecons or so
