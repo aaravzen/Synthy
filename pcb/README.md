@@ -3,7 +3,7 @@
 - dash is ground or power
 - [] changeable gpio pin
 
-![](../img/Raspberry_pi_3_GPIO_pins_v2.png)
+![](../img/GPIO-Pinout-Diagram-2.png)
 
 
 
