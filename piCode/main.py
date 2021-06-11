@@ -107,15 +107,15 @@ def switch_event(event, data):
     if data == "r3":
         trellis.color(x,y,WHITE)
 
-	if event == RotaryEncoder.CLOCKWISE:
-		print("%s Clockwise" % data)
-	elif event == RotaryEncoder.ANTICLOCKWISE:
-		print ("%s Anticlockwise" % data)
-	elif event == RotaryEncoder.BUTTONDOWN:
-		print ("%s Button down" % data)
-	elif event == RotaryEncoder.BUTTONUP:
-		print ("%s Button up" % data)
-	return
+    if event == RotaryEncoder.CLOCKWISE:
+        print("%s Clockwise" % data)
+    elif event == RotaryEncoder.ANTICLOCKWISE:
+        print ("%s Anticlockwise" % data)
+    elif event == RotaryEncoder.BUTTONDOWN:
+        print ("%s Button down" % data)
+    elif event == RotaryEncoder.BUTTONUP:
+        print ("%s Button up" % data)
+    return
 
 # Define the encoders
 r1 = RotaryEncoder(R1_PIN_A,R1_PIN_B,R1_BUTTON,switch_event,"r1")
