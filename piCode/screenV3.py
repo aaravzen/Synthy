@@ -3,8 +3,8 @@ import displayio
 from adafruit_ssd1351 import SSD1351
 
 spi = board.SPI()
-tft_cs = board.D5
-tft_dc = board.D6
+tft_cs = board.D23
+tft_dc = board.D24
 
 displayio.release_displays()
 display_bus = displayio.FourWire(spi, command=tft_dc, chip_select=tft_cs, reset=board.D9)

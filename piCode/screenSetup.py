@@ -19,8 +19,8 @@ BORDER = 5
 
 # Use for SPI
 spi = board.SPI()
-oled_cs = digitalio.DigitalInOut(board.D5)
-oled_dc = digitalio.DigitalInOut(board.D6)
+oled_cs = digitalio.DigitalInOut(board.D23)
+oled_dc = digitalio.DigitalInOut(board.D24)
 oled = adafruit_ssd1351.SSD1351_SPI(WIDTH, HEIGHT, spi, oled_dc, oled_reset, oled_cs)
 
 # Clear display.
